@@ -1,0 +1,276 @@
+    {
+        "navigation": [
+            {
+                "title":"About me!",
+                "url":"#aboutme_section"
+            },{
+                "title":"Skills",
+                "url":"#skills_section"
+            },{
+                "title":"Projects",
+                "url":"#projects_section"
+            },{
+                "title":"Capacities",
+                "url":"#capacities_section"
+            },{
+                "title":"Contact",
+                "url":"#contact_section"
+            }
+        ],
+
+        "titleHero":"AR, VR and Web Developer",
+        "subtitleHero":"I can design and code beautifully simple things, I could work in BackEnd and/or FrontEnd",
+
+        "titleWhoIAm":"Hello, I'm Juan Manuel. Nice to meet you!",
+        "textWhoIAm":"I'm a recent graduate of the Technological University of León, Acámbaro campus. However, I've been working on personal projects and school projects since 2020, I currently have a year working in the technology industry where I've played roles as a FrontEnd and BackEnd developer, Tester, Deploy, Server and Website maintenance and Analyst. I have a great passion for developing technological solutions and improving my knowledge and logical skills.",
+
+        "services":[
+            {
+                "name":"BackEnd",
+                "text":"I can develop modules from functional requeriments",
+                "titleExperience":"Experiences",
+                "img":"images/backend.svg",
+                "experience":[
+                    {
+                        "title":"Analyzing data, processes and codes"
+                    },{
+                        "title":"Reporting data to necessary parties"
+                    },{
+                        "title":"Creating functional APIs and site core"
+                    },{
+                        "title":"Monitoring Server Status"
+                    },{
+                        "title":"Database administration, creation and maintenance"
+                    }
+                ],
+                "titleTools":"Tools",
+                "tools":[
+                    {
+                        "title":"PHP"
+                    },{
+                        "title":"Laravel"
+                    },{
+                        "title":"CodeIgniter"
+                    },{
+                        "title":"MySQL"
+                    },{
+                        "title":"MS SQL Server"
+                    },{
+                        "title":"PostgreSQL"
+                    }
+                ]
+            },{
+                "name":"FrontEnd",
+                "text":"I can develop interfaces, effects, animations and other functionalities in browsers",
+                "titleExperience":"Experiences",
+                "img":"images/frontend.svg",
+                "experience":[
+                    {
+                        "title":"Implementing a website or application's visual elements"
+                    },{
+                        "title":"Using responsive design"
+                    },{
+                        "title":"Testing websites or applications for usability"
+                    },{
+                        "title":"Troubleshooting any code that isn't working"
+                    },{
+                        "title":"Improving a website or applications visual architecture"
+                    },{
+                        "title":"Modifying and creating website or applications interfaces"
+                    }
+                ],
+                "titleTools":"Tools",
+                "tools":[
+                    {
+                        "title":"HTML5"
+                    },{
+                        "title":"CSS3"
+                    },{
+                        "title":"Bootstrap"
+                    },{
+                        "title":"JavaScript"
+                    },{
+                        "title":"Angular"
+                    },{
+                        "title":"Vue.js"
+                    },{
+                        "title":"jQuery"
+                    }
+                ]
+            },{
+                "name":"Others",
+                "text":"Some tools that I can handle depending on needs or areas of work are the following",
+                "titleExperience":"Experiences and plus",
+                "img":"images/others.svg",
+                "experience":[
+                    {
+                        "title":"Create of scripts for VR and VR"
+                    },{
+                        "title":"Use of Unity3D"
+                    },{
+                        "title":"Object-Oriented Programming"
+                    },{
+                        "title":"Version control with Git"
+                    },{
+                        "title":"Basic website layout and basic image editing"
+                    }
+                ],
+                "titleTools":"Tools",
+                "tools":[
+                    {
+                        "title":"Git"
+                    },{
+                        "title":"GitLab/GitHub"
+                    },{
+                        "title":"Unity 3D"
+                    },{
+                        "title":"C#"
+                    },{
+                        "title":"Java"
+                    },{
+                        "title":"Adobe Photoshop"
+                    },{
+                        "title":"Figma"
+                    },{
+                        "title":"Wordpress"
+                    },{
+                        "title":"Technical support"
+                    }
+                ]
+            }
+        ],
+
+        "projectsTitle": "Some projects and works",
+        "projectsSubtible": "Here I will show somo basic projects that I've carried out, some of them contain links to the site and others contain links to YouTube because they were specific works for some company or organization. In addition, no websites developed in the companies where I worked was added due to confidentiality issues.",
+        "projectsTabs":[
+            {
+                "title":"Web",
+                "link":"#pills-web"
+            },{
+                "title":"Games",
+                "link":"#pills-games"
+            },{
+                "title":"Desktop",
+                "link":"#pills-desktop"
+            }
+        ],
+        "errorP" : "Projects are not registered yet, wait for them soon...",
+        "projects":[
+            {
+                "type": "web",
+                "img": "img/Adopt.webp",
+                "title": "Adopt a friend",
+                "description": "Page created for a pet adoption center, only the Frontend was developed.",
+                "hosting": "true",
+                "ref": "https://jmane-ui.github.io/adopt/",
+                "message": "Watch",
+                "uses": ["Angular.js","HTML5","CSS3","Bootstrap"]
+            },{
+                "type": "web",
+                "img": "img/ConalepAGH_Admin.webp",
+                "title": "Conalep agh",
+                "description": "Database management system for CONALEP Acámbaro (Stay Project).",
+                "hosting": "false",
+                "ref": "https://www.youtube.com/embed/UsHNIafpeOs",
+                "message": "Watch video",
+                "uses": ["Laravel","HTML5","CSS3","Botstrap"]
+            },{
+                "type": "web",
+                "img": "img/login.webp",
+                "title": "Login con APIs",
+                "description": "Simple Login frontend, using Facebook API.",
+                "hosting": "true",
+                "ref": "https://jmane-ui.github.io/loginapis/",
+                "message": "Watch",
+                "uses": ["HMTL5","JavaScript","Bootstrap"]
+            },{
+                "type": "web",
+                "img": "img/appclockandweather.webp",
+                "title": "App Clock and Weather",
+                "description": "API consumption to provide weather according to your location, along with a clock that will keep you constantly on time without having to recharge.",
+                "hosting": "true",
+                "ref": "https://jmane-ui.github.io/appclockandweather/",
+                "message": "Watch",
+                "uses": ["HMTL5","JavaScript","Bootstrap","CSS3"]
+            },{
+                "type": "web",
+                "img": "img/calculatorjs.webp",
+                "title": "Calculator.js",
+                "description": "Calculator with basic functions, implementing pure javascript.",
+                "hosting": "true",
+                "ref": "https://jmane-ui.github.io/calcbasic/",
+                "message": "Watch",
+                "uses": ["HMTL5","JavaScript","Bootstrap","CSS3"]
+            },{
+                "type": "web",
+                "img": "img/jsonplaceholder.webp",
+                "title": "Consumo de JSON",
+                "description": "Consuming the JSON PlaceHolder API via JavaScript fetch.",
+                "hosting": "true",
+                "ref": "https://jmane-ui.github.io/JSONplaceholder/",
+                "message": "Watch",
+                "uses": ["HMTL5","JavaScript","Bootstrap","CSS3"]
+            },{
+                "type": "web",
+                "img": "img/Limonada.webp",
+                "title": "Limonada Pink 1",
+                "description": "Page prototype with shopping cart for Limonada Pink company.",
+                "hosting": "false",
+                "ref": "#",
+                "message": "In process",
+                "uses": ["Laravel","HTML5","CSS3","Bootstrap"]
+            },{
+                "type": "web",
+                "img": "img/Limonada_PHP.webp",
+                "title": "Limonada Pink 2",
+                "description": "Corporate website prototype for Limonada Pink company.",
+                "hosting": "false",
+                "ref": "https://www.youtube.com/embed/P6jnOz93knU",
+                "message": "Watch video",
+                "uses": ["PHP","HTML5","CSS3","Bootstrap"]
+            },{
+                "type": "game",
+                "img": "img/BomberChicken.webp",
+                "title": "Bomber Chicken",
+                "description": "Quarterly project, video game based on Bomberman and own ideas.",
+                "hosting": "false",
+                "ref": "#",
+                "message": "In process",
+                "uses": ["Unity 3D","Blender","C#"]
+            },{
+                "type": "game",
+                "img": "img/Chicken_defense.webp",
+                "title": "Chicken Defense",
+                "description": "Four-monthly project, video game based on multiple video games and own ideas.",
+                "hosting": "false",
+                "ref": "#",
+                "message": "In process",
+                "uses": ["Unity 3D","Blender","C#"]
+            }
+        ],
+
+        "capacitiesText": "I'd like to become a high level web developer. Passionate about web development, keen to learn new technologies.",
+        "capacitiesList":[
+            {
+                "text":"Teamwork"
+            },{
+                "text":"Stress management"
+            },{
+                "text":"Communication"
+            },{
+                "text":"Autodidact"
+            },{
+                "text":"Time management"
+            },{
+                "text":"Proactive"
+            }
+        ],
+        "formFields":{
+            "title":"Contact me!",
+            "name":"Name",
+            "contact":"Email",
+            "message":"Message",
+            "button":"Send"
+        },
+        "networksTitle":"Social Networks"
+    }

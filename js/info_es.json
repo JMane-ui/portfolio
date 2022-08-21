@@ -1,0 +1,276 @@
+    {
+        "navigation": [
+            {
+                "title":"¿Quien soy?",
+                "url":"#aboutme_section"
+            },{
+                "title":"Habilidades",
+                "url":"#skills_section"
+            },{
+                "title":"Proyectos",
+                "url":"#projects_section"
+            },{
+                "title":"Capacidades",
+                "url":"#capacities_section"
+            },{
+                "title":"Contacto",
+                "url":"#contact_section"
+            }
+        ],
+
+        "titleHero":"Desarrollador Web, AR y VR",
+        "subtitleHero":"Puedo diseñar y codificar cosas simples, puedo adaptarme a trabajar en BackEnd y/o FrontEnd",
+
+        "titleWhoIAm":"¡Hola!, soy Juan Manuel. Encantado en conocerte",
+        "textWhoIAm":"Soy recién egresado de la Universidad Tecnológica de León, campus Acámbaro. Sin embargo, he estado trabajando en proyectos personales y proyectos escolares desde 2020, actualmente tengo un año trabajando en la industria de la tecnología donde he desempeñado roles como desarrollador FrontEnd y BackEnd, Tester, Deploy, Mantenimiento de servidores y sitios web y Analista. Tengo una gran pasión por desarrollar soluciones tecnológicas y mejorar mis conocimientos y habilidades lógicas.",
+
+        "services":[
+            {
+                "name":"BackEnd",
+                "text":"Puedo desarrollar módulos a partir de requerimientos funcionales",
+                "titleExperience":"Experiencias",
+                "img":"images/backend.svg",
+                "experience":[
+                    {
+                        "title":"Análisis de datos, procesos y códigos"
+                    },{
+                        "title":"Reportar datos a las partes necesarias"
+                    },{
+                        "title":"Creación de APIs funcionales y núcleo del sitio"
+                    },{
+                        "title":"Supervisión del estado del servidor"
+                    },{
+                        "title":"Administración, creación y mantenimiento de bases de datos"
+                    }
+                ],
+                "titleTools":"Herramientas",
+                "tools":[
+                    {
+                        "title":"PHP"
+                    },{
+                        "title":"Laravel"
+                    },{
+                        "title":"CodeIgniter"
+                    },{
+                        "title":"MySQL"
+                    },{
+                        "title":"MS SQL Server"
+                    },{
+                        "title":"PostgreSQL"
+                    }
+                ]
+            },{
+                "name":"FrontEnd",
+                "text":"Puedo desarrollar interfaces, efectos, animaciones y otras funcionalidades en navegadores",
+                "titleExperience":"Experiencias",
+                "img":"images/frontend.svg",
+                "experience":[
+                    {
+                        "title":"Implementar los elementos visuales de un sitio web o aplicación"
+                    },{
+                        "title":"Uso de diseños responsivoss"
+                    },{
+                        "title":"Probar y ajustar sitios web o aplicaciones para la usabilidad"
+                    },{
+                        "title":"Solución de problemas de cualquier código que no funcione"
+                    },{
+                        "title":"Mejorar la arquitectura visual de un sitio web o aplicaciones"
+                    },{
+                        "title":"Modificación y creación de interfaces de sitios web o aplicaciones"
+                    }
+                ],
+                "titleTools":"Herramientas",
+                "tools":[
+                    {
+                        "title":"HTML5"
+                    },{
+                        "title":"CSS3"
+                    },{
+                        "title":"Bootstrap"
+                    },{
+                        "title":"JavaScript"
+                    },{
+                        "title":"Angular"
+                    },{
+                        "title":"Vue.js"
+                    },{
+                        "title":"jQuery"
+                    }
+                ]
+            },{
+                "name":"Otros",
+                "text":"Algunas herramientas que puedo manejar dependiendo de las necesidades o áreas de trabajo son las siguientes",
+                "titleExperience":"Experiencias y más",
+                "img":"images/others.svg",
+                "experience":[
+                    {
+                        "title":"Creación de scripts para VR y VR"
+                    },{
+                        "title":"Uso de Unity3D"
+                    },{
+                        "title":"Programación orientada a objetos"
+                    },{
+                        "title":"Control de versiones con Git"
+                    },{
+                        "title":"Maquetación básica del sitio web y edición básica de imágenes"
+                    }
+                ],
+                "titleTools":"Herramientas",
+                "tools":[
+                    {
+                        "title":"Git"
+                    },{
+                        "title":"GitLab/GitHub"
+                    },{
+                        "title":"Unity 3D"
+                    },{
+                        "title":"C#"
+                    },{
+                        "title":"Java"
+                    },{
+                        "title":"Adobe Photoshop"
+                    },{
+                        "title":"Figma"
+                    },{
+                        "title":"Wordpress"
+                    },{
+                        "title":"Soporte técnico"
+                    }
+                ]
+            }
+        ],
+
+        "projectsTitle": "Algunos proyectos y trabajos",
+        "projectsSubtible": "Aquí mostraré algunos proyectos básicos que he realizado, algunos contienen enlaces al sitio y otros contienen enlaces a YouTube porque fueron trabajos específicos para alguna empresa u organización. Además, no se agregaron sitios web desarrollados en las empresas donde trabajé por cuestiones de confidencialidad.",
+        "projectsTabs":[
+            {
+                "title":"Web",
+                "link":"#pills-web"
+            },{
+                "title":"Videojuegos",
+                "link":"#pills-games"
+            },{
+                "title":"Desktop",
+                "link":"#pills-desktop"
+            }
+        ],
+        "errorP" : "Aun no se registran proyectos, esperalos pronto...",
+        "projects":[
+            {
+                "type": "web",
+                "img": "img/Adopt.webp",
+                "title": "Adopt a friend",
+                "description": "Página creada para centro de adopción de mascotas, únicamente se desarrolló el Frontend.",
+                "hosting": "true",
+                "ref": "https://jmane-ui.github.io/adopt/",
+                "message": "Ver",
+                "uses": ["Angular.js","HTML5","CSS3","Bootstrap"]
+            },{
+                "type": "web",
+                "img": "img/ConalepAGH_Admin.webp",
+                "title": "Conalep agh",
+                "description": "Sistema gestor de base de datos para CONALEP Acámbaro (Proyecto de estadías).",
+                "hosting": "false",
+                "ref": "https://www.youtube.com/embed/UsHNIafpeOs",
+                "message": "Ver video",
+                "uses": ["Laravel","HTML5","CSS3","Botstrap"]
+            },{
+                "type": "web",
+                "img": "img/login.webp",
+                "title": "Login con APIs",
+                "description": "Frontend simple de Login, utilizando API de Facebook.",
+                "hosting": "true",
+                "ref": "https://jmane-ui.github.io/loginapis/",
+                "message": "Ver",
+                "uses": ["HMTL5","JavaScript","Bootstrap"]
+            },{
+                "type": "web",
+                "img": "img/appclockandweather.webp",
+                "title": "App Clock and Weather",
+                "description": "Consumo de API para brindar clima acorde a su ubicación, junto a un reloj que le estará mostrando constantemente la hora sin tener que recargar.",
+                "hosting": "true",
+                "ref": "https://jmane-ui.github.io/appclockandweather/",
+                "message": "Ver",
+                "uses": ["HMTL5","JavaScript","Bootstrap","CSS3"]
+            },{
+                "type": "web",
+                "img": "img/calculatorjs.webp",
+                "title": "Calculator.js",
+                "description": "Calculadora con funciones básicas, implementando javascript puro.",
+                "hosting": "true",
+                "ref": "https://jmane-ui.github.io/calcbasic/",
+                "message": "Ver",
+                "uses": ["HMTL5","JavaScript","Bootstrap","CSS3"]
+            },{
+                "type": "web",
+                "img": "img/jsonplaceholder.webp",
+                "title": "Consumo de JSON",
+                "description": "Consumo de la API JSON PlaceHolder mediante fetch JavaScript.",
+                "hosting": "true",
+                "ref": "https://jmane-ui.github.io/JSONplaceholder/",
+                "message": "Ver",
+                "uses": ["HMTL5","JavaScript","Bootstrap","CSS3"]
+            },{
+                "type": "web",
+                "img": "img/Limonada.webp",
+                "title": "Limonada Pink 1",
+                "description": "Prototipo de página con carrito de compras para empresa Limonada Pink.",
+                "hosting": "false",
+                "ref": "#",
+                "message": "En proceso",
+                "uses": ["Laravel","HTML5","CSS3","Bootstrap"]
+            },{
+                "type": "web",
+                "img": "img/Limonada_PHP.webp",
+                "title": "Limonada Pink 2",
+                "description": "Prototipo de página web corporativa para empresa Limonada Pink.",
+                "hosting": "false",
+                "ref": "https://www.youtube.com/embed/P6jnOz93knU",
+                "message": "Ver video",
+                "uses": ["PHP","HTML5","CSS3","Bootstrap"]
+            },{
+                "type": "game",
+                "img": "img/BomberChicken.webp",
+                "title": "Bomber Chicken",
+                "description": "Proyecto cuatrimestral, videojuego basado en Bomberman e ideas propias.",
+                "hosting": "false",
+                "ref": "#",
+                "message": "En proceso",
+                "uses": ["Unity 3D","Blender","C#"]
+            },{
+                "type": "game",
+                "img": "img/Chicken_defense.webp",
+                "title": "Chicken Defense",
+                "description": "Proyecto cuatrimestral, videojuego basado en múltiples videojuegos e ideas propias.<",
+                "hosting": "false",
+                "ref": "#",
+                "message": "En proceso",
+                "uses": ["Unity 3D","Blender","C#"]
+            }
+        ],
+
+        "capacitiesText": "Me gustaría convertirme en un desarrollador web de alto nivel. Apasionado por el desarrollo web, con ganas de aprender nuevas tecnologías.",
+        "capacitiesList":[
+            {
+                "text":"Trabajo en equipo"
+            },{
+                "text":"Manejo del estrés"
+            },{
+                "text":"Comunicación"
+            },{
+                "text":"Autodidacta"
+            },{
+                "text":"Gestión del tiempo"
+            },{
+                "text":"Proactivo"
+            }
+        ],
+        "formFields":{
+            "title":"¡Contactame!",
+            "name":"Nombre",
+            "contact":"Correo elctrónico",
+            "message":"Mensaje",
+            "button":"Enviar"
+        },
+        "networksTitle":"Redes Sociales"
+    }

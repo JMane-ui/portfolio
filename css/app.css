@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+body{
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+}
+
+body p, h1, h2, h3, h4, h5, h6{
+    color: #0c0c0c !important;
+}
+
+*{
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+}
+
+.bg-yellow{
+    background-color: #f7df1e;
+}
+
+.p--3{
+    top:-4rem;
+    position: relative;
+}
+
+.mx-w-100{
+    max-width: 100%;
+}
+
+.btn-outline-warning{
+    color:#f7df1e !important;
+    border-color:#f7df1e !important;
+    border-radius: 25px !important;
+}
+.btn-outline-warning:hover{
+    color: #0c0c0c !important;
+    background-color: #f7df1e !important;
+}
+
+li::marker{
+    color: #f7df1e !important;
+}
+
+.img-hero{
+    width: 35%;
+}
+
+.img-skills{
+    width: 38%;
+}
+
+@media(max-width:768px){
+    .img-hero{
+        width: 70%;
+    }
+    .img-skills{
+        width: 55%;
+    }
+}
+
+nav a.nav-link{
+    color: #0c0c0c;
+    font-weight: 600;
+}
+
+h1{
+    font-weight: 900 !important;
+}
+h4{
+    font-weight: 200 !important;
+}
+h2{
+    font-weight: 700 !important;
+}
+
+p{
+    font-weight: 300 !important;
+    color:black !important;
+    font-size: 1.1rem !important;
+}
+
+h3{
+    font-weight: 700;
+}
+
+#list-capacities li{
+    font-weight: 300 !important;
+}
+
+.form-control:focus{
+    box-shadow: 0 0 0 0rem rgb(247 223 30 / 25%) !important;
+}
+
+.form-control{
+    border-color: #b8b8b8 !important;
+}
+
+.headroom {
+    will-change: transform;
+    transition: transform 200ms linear;
+    z-index: 100;
+}
+.headroom--pinned {
+    transform: translateY(0%);
+}
+.headroom--unpinned {
+    transform: translateY(-100%);
+}
+
+#loading {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.9;
+    background-color: #fff;
+    z-index: 99;
+}
+  
+#loading-image {
+    z-index: 100;
+}
+
+.dark-text.nav-link{
+    color:#0c0c0c !important;
+}
+
+.dark-text.nav-link.active{
+    color:#fff !important;
+    background-color: #f7df1e !important;
+    border-radius: 16px !important;
+}
+
+
+
+.clear-fix:after {
+    display: block;
+    clear: both;
+   
+}
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+.card__collection {
+    position: relative;
+    display: block;
+    padding: 10px;
+    overflow: hidden;
+}
+.card__collection .cards {
+    width: 300px;
+    height: 250px;
+    display: block;
+    background-size: cover;
+    float: left;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    background-position: center;
+    margin: 10px;
+}
+.card__collection .cards--three {
+    position: relative;
+    z-index: 10;
+}
+.card__collection .cards--three:hover .cards--three__rect-1 {
+    left: 10%;
+}
+.card__collection .cards--three:hover .cards--three__rect-1 .shadow-1 {
+    left: -20%;
+}
+.card__collection .cards--three:hover .cards--three__rect-2 {
+    left: 60%;
+}
+.card__collection .cards--three:hover .cards--three__rect-2:before {
+    left: -100%;
+}
+.card__collection .cards--three:hover .cards--three__rect-2:after {
+    left: 80%;
+}
+.card__collection .cards--three:hover .cards--three__rect-2 .shadow-2 {
+    left: -10%;
+}
+.card__collection .cards--three:hover .cards--three__circle {
+    transform: scale(1);
+}
+.card__collection .cards--three:hover .cards--three__circle:before {
+    transform: scale(0.9);
+}
+.card__collection .cards--three:hover .cards--three__list li {
+    transform: translateX(0);
+}
+.card__collection .cards--three__rect-1 {
+    background: #fff;
+    width: 200px;
+    height: 110px;
+    transform: skewX(-20deg);
+    display: block;
+    position: absolute;
+    top: 73%;
+    opacity: 0.9;
+    left: -100%;
+    z-index: 8;
+    transition: all 0.5s ease-in;
+}
+.card__collection .cards--three__rect-1 p {
+    font-size: 20px;
+    color: #fff;
+    transform: skewX(20deg);
+    line-height: 6rem;
+}
+.card__collection .cards--three__rect-1 .shadow-1 {
+    background: #f7df1e;
+    width: 230px;
+    height: 100px;
+    display: block;
+    position: absolute;
+    left: -200%;
+    z-index: -1;
+    transition: all 0.3s ease-in;
+}
+.card__collection .cards--three__rect-2 {
+    width: 50%;
+    height: 70px;
+    background: #fff;
+    position: absolute;
+    top: 55%;
+    left: 1000%;
+    opacity: 0.9;
+    transform: skewX(-20deg);
+    z-index: 8;
+    transition: all 0.5s ease-in;
+}
+.card__collection .cards--three__rect-2::before {
+    display: block;
+    width: 50px;
+    height: 40px;
+    background: #0c0c0c;
+    opacity: 1;
+    position: absolute;
+    left: 500%;
+    top: 10%;
+    transition: all 0.3s ease-in;
+}
+.card__collection .cards--three__rect-2::after {
+   
+    display: block;
+    width: 50px;
+    height: 40px;
+    background: #f7df1e;
+    opacity: 1;
+    position: absolute;
+    left: 500%;
+    top: 114%;
+    transition: all 0.5s ease-in;
+    transition-delay: 0.2s;
+}
+.card__collection .cards--three__rect-2 .shadow-2 {
+    background: #0c0c0c;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: -10%;
+    left: 500%;
+    transition: all 0.5s ease-in;
+    transition-delay: 0.2s;
+}
+.card__collection .cards--three__rect-2 .shadow-2 p{
+    color: #fff !important;
+    font-weight: 300 !important;
+    font-size: 0.65rem !important;
+    z-index: 200;
+    padding: 0rem 1.5rem 0.5rem 0.25rem;
+}
+.card__collection .cards--three__circle {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    top: -15%;
+    left: 50%;
+    opacity: 0.9;
+    transform: scale(0);
+    transition: all 0.3s ease;
+}
+.card__collection .cards--three__circle:before {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #f7df1e;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: all 0.3s ease;
+    transition-delay: 0.2s;
+}
+.card__collection .cards--three__list {
+    list-style: none;
+    position: absolute;
+    top: -9px;
+    right: 7px;
+    padding-top: 60px;
+    transition: all 0.4s ease;
+}
+.card__collection .cards--three__list li {
+    display: inline-block;
+    margin: 4px;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #f7df1e;
+    text-align: center;
+    line-height: 1.7rem;
+    font-size: 12px;
+    transition: all 0.3s ease;
+    transform: translateX(500%);
+}
+.card__collection .cards--three__list a {
+    color: #fff;
+}
+.card__collection .cards--three__list li:nth-child(1) {
+    transition-delay: 0.2s;
+}
+.card__collection .cards--three__list li:nth-child(2) {
+    transition-delay: 0.3s;
+}
+.card__collection .cards--three__list li:nth-child(3) {
+    transition-delay: 0.4s;
+}
+
+.text-white a{
+    color: #fff !important;
+}

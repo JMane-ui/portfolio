@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Manuel | Portfolio</title>
+    <link rel="shortcut icon" href="/images/icon_jmfe_final_favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/app.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+<body>
+    <div id="loading">
+        <img id="loading-image" src="images/151.svg" class="mx-w-100" width="auto" height="100%" alt="Loading..." />
+    </div>
+      
+    <header class="position-fixed w-100" style="background-color: #fff;">
+        <nav class="navbar navbar-expand-lg py-4">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="/images/icon_jmfe_final.png" alt="Brand Juan Manuel Franco" width="75" height="auto">
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-center text-center" style="margin: 0 !important;" id ="nav-items">
+                  
+                </ul>
+                <a class="btn btn-outline-warning d-flex justify-content-center" id="changeLanguage">En/Es</a>
+                <hr>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <article>
+    <div class="container py-5 pt-5">
+        <div class="row pt-5">
+            <div class="col-12 d-flex justify-content-center pt-5">
+                <h1 id="title-hero"></h1>
+            </div>
+            <div class="col-12 d-flex justify-content-center text-center">
+                <h4 id="subtitle-hero"></h4>
+            </div>
+            <div class="col-12 d-flex justify-content-center">
+                <img class="mx-w-100 img-hero" src="images/avataaars_final.svg" width="auto" alt="Juan Manuel Franco">
+            </div>
+        </div>
+    </div>
+    
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center" id="aboutme_section">
+                    <img class="mx-w-100" width="auto" src="images/whoiam.svg" alt="Juan Manuel Franco - Who I am">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-yellow pt-5 pb-5">
+            <div class="container">
+                <div class="row py-5">
+                    <div class="col-12 d-flex justify-content-center">
+                        <h2 id="title-iam"></h2>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center text-center">
+                        <p id="subtitle-iam"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container p--3" id="skills_section">
+            <div class="row" id="cards-skills">
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                    <img class="mx-w-100 img-skills" width="auto" src="/images/340.svg" alt="Juan Manuel Franco - skills">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid bg-yellow py-5" id="projects_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center">
+                        <h2 id="title-projects"></h2>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center text-center">
+                        <p id="subtitle-projects"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row" id="projects">
+            </div>
+            <div class="row p-3">
+                <div class="col-12">
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="dark-text nav-link active" id="pills-web-tab" data-bs-toggle="pill" data-bs-target="#pills-web" type="button" role="tab" aria-controls="pills-web" aria-selected="true"></button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="dark-text nav-link" id="pills-games-tab" data-bs-toggle="pill" data-bs-target="#pills-games" type="button" role="tab" aria-controls="pills-games" aria-selected="false"></button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="dark-text nav-link" id="pills-desktop-tab" data-bs-toggle="pill" data-bs-target="#pills-desktop" type="button" role="tab" aria-controls="pills-desktop" aria-selected="false"></button>
+                        </li>
+                      </ul>
+                      <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-web" role="tabpanel" aria-labelledby="pills-web-tab" tabindex="0"><div class="row" id="pills-web-data"></div></div>
+                        <div class="tab-pane fade" id="pills-games" role="tabpanel" aria-labelledby="pills-games-tab" tabindex="0"><div class="row" id="pills-games-data"></div></div>
+                        <div class="tab-pane fade" id="pills-desktop" role="tabpanel" aria-labelledby="pills-desktop-tab" tabindex="0"><div class="row" id="pills-desktop-data"></div></div>
+                      </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row pb-5">
+                <div class="col-12 d-flex justify-content-center" id="capacities_section">
+                    <img class="mx-w-100" width="50%" src="images/21.svg" alt="Juan Manuel Franco - Projects">
+                </div>
+                <div class="col-12 col-md-6 d-flex justify-content-center align-items-center text-center py-2"><h4 id="title-capacities"></h4></div>
+                <div class="col-12 col-md-6 d-flex justify-content-center align-items-center py-2"><ul id="list-capacities"></ul></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row py-2">
+                <div class="col-12 col-md-6 d-flex justify-content-center align-items-center"><img class="mx-w-100" width="90%" src="images/12.svg" alt=""></div>
+                <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                    <div class="row" id="contact_section">
+                        <h2 id="title-form"></h2>
+                        <form onsubmit="return setAction( name_field.value, contact_field.value,message_field.value )">
+                            <div class="row">
+                            <div class="col-6">
+                                <div class="form-floating mb-3">
+                                    <input required type="text" class="form-control" id="name_field" placeholder="FistName LastName">
+                                    <label for="floatingInput" id="form-name"></label>
+                                </div>   
+                            </div>
+                            <div class="col-6">
+                               <div class="form-floating mb-3">
+                                    <input required type="email" class="form-control" id="contact_field" placeholder="name@example.com">
+                                    <label for="floatingInput" id="form-email"></label>
+                                </div> 
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating mb-3">
+                                    <input required type="text" class="form-control" id="message_field" placeholder="Comentaries">
+                                    <label for="floatingInput" id="form-message"></label>
+                                </div>  
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-outline-warning btn-lg" id="form-button"></button>
+                            </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row py-2">
+                <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                    <div class="row">
+                        <div class="col-12 d-flex justify-content-center"><h3 id="networks-title"></h3></div>
+                        <div class="col-12 d-flex justify-content-center">
+                            <a target="_blank" href="mailto:manuelfrancoesquivel@gmail.com?Subject=Vengo%20de%20tu%20sitio%20web" class="btn btn-outline-warning m-1"><i class="fa fa-envelope-o"></i></a>
+                            <a target="_blank" href="https://wa.me/+524471157463/?text=Hola%20vengo%20de%20tu%20sitio%20web,%20me%20interesa:" class="btn btn-outline-warning m-1"><i class="fa fa-whatsapp"></i></a>
+                            <a target="_blank" href="https://www.linkedin.com/in/juan-manuel-franco-esquivel-67b384215/" class="btn btn-outline-warning m-1"><i class="fa fa-linkedin"></i></a>
+                            <a target="_blank" href="https://www.instagram.com/jmanefranco.x" class="btn btn-outline-warning m-1"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                    <img class="mx-w-100" width="90%" src="images/57.svg" alt="Juan Manuel - Redes">
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <footer class="container">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+                <p><small class="text-muted">&copy; 2021 Juan Manuel Franco Esquivel</small></p>
+            </div>
+        </div>
+    </footer>
+
+
+<script src="https://unpkg.com/headroom.js@0.12.0/dist/headroom.min.js"></script> 
+<script src="js/app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+</body>
+</html>
