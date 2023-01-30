@@ -225,24 +225,23 @@ function printData(data){
                 <div class="col-sm-12 col-md-6 col-xl-4 mb-2 mt-2">
                     <div class="card transition" style="border:0px solid #fff !important;">
                     <div class="card__collection clear-fix">
-
-  <div class="cards cards--three">
-    <img src="${element.img}" class="img-responsive" alt="">
-    <span class="cards--three__rect-1">
-      <span class="shadow-1"></span>
-      <p class="text-white"><strong>${element.title}</strong></p>
-    </span>
-    <span class="cards--three__rect-2">
-      <span class="shadow-2">
-        <p>${element.description}</p>
-      </span>
-    </span>
-    <span class="cards--three__circle"></span>
-    <ul class="cards--three__list">
-      ${link}
-    </ul>
-  </div>
-</div>
+                    <div class="cards cards--three">
+                        <img src="${element.img}" class="img-responsive" alt="">
+                        <span class="cards--three__rect-1">
+                        <span class="shadow-1"></span>
+                        <p class="text-white"><strong>${element.title}</strong></p>
+                        </span>
+                        <span class="cards--three__rect-2">
+                        <span class="shadow-2">
+                            <p>${element.description}</p>
+                        </span>
+                        </span>
+                        <span class="cards--three__circle"></span>
+                        <ul class="cards--three__list">
+                        ${link}
+                        </ul>
+                    </div>
+                    </div>
                     </div>
                 </div>
                 `;
@@ -264,30 +263,35 @@ function printData(data){
                     uses += `<li class="list-group-item">${element.uses[index]}</li>`
                 }
                 if(element.hosting == 'true'){
-                    link = `<a href="${element.ref}" class="btn btn-outline-dark" target="_blank"><i class="fa fa-github"></i> | ${element.message}</a>`
+                    link = `<li class="tex-white"><a href="${element.ref}" target="_blank"><i class="fa fa-github"></i></a></li>`;
                 }else{
-                    link = `<a href="${element.ref}" class="btn btn-outline-danger" target="_blank"><i class="fa fa-youtube"></i> | ${element.message}</a>`
+                    if( element.message == "En proceso" || element.message == 'In process' ){
+                        link = `<li class="tex-white"><i class="fa fa-wrench "></i></li>`;
+                    }else{
+                        link = `<li class="tex-white"><a href="${element.ref}" target="_blank"><i class="fa fa-youtube"></i></a></li>`;
+                    }
                 }
                 gameProjects.innerHTML += `
-                <div class="col-sm-12 col-md-4 col-xl-3 mb-2 mt-2">
-                    <div class="card h-100">
-                        <img src="${element.img}" class="card-img-top" width="90%" alt="${element.title}">
-                        <div class="card-body">
-                            <h5 class="card-title">
-                                ${element.title}
-                            </h5>
-                            <p class="card-text">
-                                ${element.description}
-                            </p>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            ${uses}
+                <div class="col-sm-12 col-md-6 col-xl-4 mb-2 mt-2">
+                    <div class="card transition" style="border:0px solid #fff !important;">
+                    <div class="card__collection clear-fix">
+                    <div class="cards cards--three">
+                        <img src="${element.img}" class="img-responsive" alt="">
+                        <span class="cards--three__rect-1">
+                        <span class="shadow-1"></span>
+                        <p class="text-white"><strong>${element.title}</strong></p>
+                        </span>
+                        <span class="cards--three__rect-2">
+                        <span class="shadow-2">
+                            <p>${element.description}</p>
+                        </span>
+                        </span>
+                        <span class="cards--three__circle"></span>
+                        <ul class="cards--three__list">
+                        ${link}
                         </ul>
-                        <div class="card-body">
-                            <div class="d-grid gap-2">
-                                ${link}
-                            </div>
-                        </div>
+                    </div>
+                    </div>
                     </div>
                 </div>
                 `;
