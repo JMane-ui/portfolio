@@ -338,3 +338,15 @@ h3{
 .text-white a{
     color: #fff !important;
 }
+
+.text-center {
+    text-align: center;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.mx-w-750px {
+    max-width: 750px;
+}
