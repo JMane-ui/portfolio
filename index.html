@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/app.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <div id="loading">
@@ -36,28 +37,29 @@
           </nav>
     </header>
     <article>
-    <div class="container py-5 pt-5">
-        <div class="row pt-5">
-            <div class="col-12 d-flex justify-content-center pt-5">
-                <h1 id="title-hero" class="title-hero"></h1>
-            </div>
-            <div class="col-12 d-flex justify-content-center text-center">
-                <h4 id="subtitle-hero"></h4>
-            </div>
-            <div class="col-12 d-flex justify-content-center">
-                <img class="mx-w-100 img-hero" src="images/avataaars_final.svg" width="auto" alt="Juan Manuel Franco">
+        <div class="container py-5 pt-5" data-aos="flip-up">
+            <div class="row pt-5">
+                <div class="col-12 d-flex justify-content-center pt-5">
+                    <h1 id="title-hero" class="title-hero"></h1>
+                </div>
+                <div class="col-12 d-flex justify-content-center text-center">
+                    <h4 id="subtitle-hero"></h4>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <img class="mx-w-100 img-hero" src="images/avataaars_final.svg" width="auto" alt="Juan Manuel Franco">
+                </div>
             </div>
         </div>
-    </div>
     
-        <div class="container">
+        <div class="container" data-aos="slide-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
             <div class="row">
                 <div class="col-12 d-flex justify-content-center" id="aboutme_section">
                     <img class="mx-w-100" width="auto" src="images/whoiam.svg" alt="Juan Manuel Franco - Who I am">
                 </div>
             </div>
         </div>
-        <div class="container-fluid bg-yellow pt-5 pb-5">
+
+        <div class="container-fluid bg-yellow pt-5 pb-5" data-aos="slide-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
             <div class="container">
                 <div class="row py-5">
                     <div class="col-12 d-flex justify-content-center">
@@ -69,18 +71,21 @@
                 </div>
             </div>
         </div>
-        <div class="container p--3" id="skills_section">
+
+        <div class="container p--3" id="skills_section" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
             <div class="row" id="cards-skills">
             </div>
         </div>
-        <div class="container">
+
+        <div class="container" data-aos="slide-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
             <div class="row">
                 <div class="col-12 d-flex justify-content-center">
                     <img class="mx-w-100 img-skills" width="auto" src="images/340.webp" alt="Juan Manuel Franco - skills">
                 </div>
             </div>
         </div>
-        <div class="container-fluid bg-yellow py-5" id="projects_section">
+
+        <div class="container-fluid bg-yellow py-5" id="projects_section" data-aos="slide-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
             <div class="container">
                 <div class="row">
                     <div class="col-12 d-flex justify-content-center">
@@ -92,7 +97,8 @@
                 </div>
             </div>
         </div>
-        <div class="container">
+
+        <div class="container" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
             <div class="row" id="projects">
             </div>
             <div class="row p-3">
@@ -116,7 +122,8 @@
                 </div>
             </div>
         </div>
-        <div class="container">
+
+        <div class="container" data-aos="fade-up" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
             <div class="row pb-5">
                 <div class="col-12 d-flex justify-content-center" id="capacities_section">
                     <img class="mx-w-100" width="700px" src="images/21.svg" alt="Juan Manuel Franco - Projects">
@@ -125,8 +132,9 @@
                 <div class="col-12 col-md-6 d-flex justify-content-center align-items-center py-2"><ul id="list-capacities"></ul></div>
             </div>
         </div>
+
         <div class="container">
-            <div class="row py-2">
+            <div class="row py-2" data-aos="fade-down" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
                 <div class="col-12 col-md-6 d-flex justify-content-center align-items-center"><img class="mx-w-100" width="90%" src="images/12.svg" alt=""></div>
                 <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
                     <div class="row" id="contact_section">
@@ -159,7 +167,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row py-2">
+            <div class="row py-2" data-aos="fade-down" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000">
                 <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
                     <div class="row">
                         <div class="col-12 d-flex justify-content-center"><h3 id="networks-title"></h3></div>
@@ -187,8 +195,13 @@
     </footer>
 
 
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 <script src="https://unpkg.com/headroom.js@0.12.0/dist/headroom.min.js"></script> 
 <script src="js/app.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
 </body>
